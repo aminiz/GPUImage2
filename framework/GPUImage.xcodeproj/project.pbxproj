@@ -350,6 +350,7 @@
 		BCFF46FC1CBAF85000A0C521 /* TransformOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF46FB1CBAF85000A0C521 /* TransformOperation.swift */; };
 		BCFF46FE1CBB0C1F00A0C521 /* AverageColorExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF46FD1CBB0C1F00A0C521 /* AverageColorExtractor.swift */; };
 		BCFF47081CBB443B00A0C521 /* CameraConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF47071CBB443B00A0C521 /* CameraConversion.swift */; };
+		D33D502921A48E870095F687 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D502821A48E870095F687 /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -686,6 +687,7 @@
 		BCFF46FF1CBB0D8900A0C521 /* AverageColor_GL.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = AverageColor_GL.fsh; path = Source/Operations/Shaders/AverageColor_GL.fsh; sourceTree = "<group>"; };
 		BCFF47001CBB0D8900A0C521 /* AverageColor.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = AverageColor.vsh; path = Source/Operations/Shaders/AverageColor.vsh; sourceTree = "<group>"; };
 		BCFF47071CBB443B00A0C521 /* CameraConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraConversion.swift; path = Source/CameraConversion.swift; sourceTree = "<group>"; };
+		D33D502821A48E870095F687 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1100,6 +1102,7 @@
 		BC9E350A1E524C8000B8604F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D33D502821A48E870095F687 /* Stream.swift */,
 				BC9E350B1E524CB900B8604F /* Camera.swift */,
 				BC9E35111E524CE400B8604F /* YUVConversionFullRange_GLES.fsh */,
 				BC9E35131E524CE400B8604F /* YUVConversionFullRangeUVPlanar_GLES.fsh */,
@@ -1593,6 +1596,7 @@
 				BC9E35A61E52577B00B8604F /* SwirlDistortion.swift in Sources */,
 				BC9E35341E524D7900B8604F /* Framebuffer.swift in Sources */,
 				BC9E35B31E5257A600B8604F /* EmbossFilter.swift in Sources */,
+				D33D502921A48E870095F687 /* Stream.swift in Sources */,
 				BC9E352E1E524D6F00B8604F /* ShaderUniformSettings.swift in Sources */,
 				BC9E35A21E52577000B8604F /* CGAColorspaceFilter.swift in Sources */,
 				BC9E35C31E5257D900B8604F /* ColorDodgeBlend.swift in Sources */,
